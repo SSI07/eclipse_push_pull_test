@@ -13,7 +13,11 @@ public class Hello {
 		int val3= rand.nextInt(Integer.MAX_VALUE);
 		long total=50000+10*(val1+val2+val3);
 
-		System.out.println("Total: "+total);
+		int pound=200;
+		double kilogram=pound*(0.45359237);
+
+		System.out.println("Total: "+total +"\n"+pound+" pound= "+kilogram+" Kilogram");
+
 	}
 
 }
